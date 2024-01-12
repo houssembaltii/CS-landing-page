@@ -75,6 +75,7 @@ const navigation = {
   ],
 };
 import cslogo from "../../images/cs-white-logo.png";
+import { Roboto_slab } from "@/utils/fonts";
 const Footer = () => {
   return (
     <footer className='bg-csblue-light  shadow '>
@@ -105,8 +106,10 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
-        <span className='block text-sm text-white sm:text-center  text-center'>
+        <hr className='my-6 border-csyellow sm:mx-auto dark:border-csyellow lg:my-8' />
+        <span
+          className={`${Roboto_slab.variable} font-roboto_slab block text-sm text-white sm:text-center   text-center`}
+        >
           <Link href='#' className='hover:underline'>
             Camel Studio{" "}
           </Link>

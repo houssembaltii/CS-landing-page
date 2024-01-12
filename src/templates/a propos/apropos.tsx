@@ -1,6 +1,7 @@
 import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
 import React from "react";
 import background from "./../../images/background.jpeg";
+import Image from "next/image";
 const jobOpenings = [
   {
     id: 1,
@@ -46,9 +47,9 @@ const Apropos = () => {
               le marché européen, et on sait comment s&apos;y prendre pour des
               projets qui dépotent.
             </p>
-            <img
-              src='https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80'
-              alt=''
+            <Image
+              src={background}
+              alt=' start ui image'
               className='mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]'
             />
           </div>

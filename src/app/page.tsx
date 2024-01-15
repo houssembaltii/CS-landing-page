@@ -4,7 +4,9 @@ import AproposM from "@/templates/a propos/aproposm";
 
 import Footer from "@/templates/footer/footer";
 import OptionList from "@/templates/options/option";
+import Options from "@/templates/options/options";
 import Prestation from "@/templates/prestations/prestation";
+import Pr from "@/templates/prestations/prestations";
 
 export default function Home() {
   return (
@@ -12,10 +14,12 @@ export default function Home() {
       <HeroPage />
 
       <Prestation />
-
+      {/*  <Pr /> */}
       <Apropos />
       {/*  <AproposM /> */}
-      <OptionList />
+
+      {/*   <OptionList /> */}
+      <Options />
       <Footer />
     </main>
   );

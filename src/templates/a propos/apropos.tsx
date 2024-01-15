@@ -33,12 +33,12 @@ const Apropos = () => {
         <div className='mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row'>
           <div className='w-full lg:max-w-lg lg:flex-auto'>
             <h2
-              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-csyellow text-center`}
+              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-white text-center`}
             >
               Qui sommes-nous ?
             </h2>
             <p
-              className={`${Roboto_slab.variable} font-roboto_slab mt-6  text-white  text-base leading-8 lg:break-normal`}
+              className={`${Roboto_slab.variable} font-roboto_slab mt-6  text-gray-200  text-base leading-8 lg:break-normal`}
             >
               Une équipe jeune mais pas novice, soudée et qui connaît le marché
               européen. Pas de blabla ici. On code, on design, on résout des
@@ -61,7 +61,7 @@ const Apropos = () => {
                   <dl className='relative flex flex-wrap gap-x-3'>
                     <dt className='sr-only'>Role</dt>
                     <dd
-                      className={`${ThrashTalkFont.variable} font-thrashtalk w-full flex-none  font-semibold tracking-tight text-csyellow text-3xl lg:text-left text-center xl:text-left 2xl:text-left `}
+                      className={`${ThrashTalkFont.variable} font-thrashtalk w-full flex-none  font-semibold tracking-tight text-white text-3xl lg:text-left text-center xl:text-left 2xl:text-left `}
                     >
                       <p>
                         {opening.titre}
@@ -70,7 +70,7 @@ const Apropos = () => {
                     </dd>
                     <dt className='sr-only'>Description</dt>
                     <dd
-                      className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-white lg:break-normal`}
+                      className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-gray-200 lg:break-normal`}
                     >
                       {opening.description}
                     </dd>

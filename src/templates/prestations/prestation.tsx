@@ -67,7 +67,7 @@ const Prestation = () => {
             Nos Prestations
           </h2>
         </div>
-        <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
+        <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none sm:mx-32 lg:mx-0 md:mx-32'>
           <dl className='grid max-w-xl grid-cols-1 gap-x-24 gap-y-16 lg:max-w-none lg:grid-cols-3 '>
             {features.map((feature) => (
               <div key={feature.name} className='flex flex-col '>
@@ -94,7 +94,7 @@ const Prestation = () => {
                 </dt>
                 <dd className='mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 '>
                   <p
-                    className={` ${Roboto_slab.variable} font-roboto_slab flex-auto lg:break-normal    md:pl-0 lg:pl-0  xl:px-0 2xl:px-0 md:text-center lg:text-left sm:text-center `}
+                    className={` ${Roboto_slab.variable} font-roboto_slab lg:break-normal    md:pl-0 lg:pl-0  xl:px-0 2xl:px-0 md:text-center lg:text-left sm:text-center  `}
                   >
                     {feature.description}
                   </p>

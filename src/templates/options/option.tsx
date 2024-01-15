@@ -20,22 +20,20 @@ const OptionList = () => {
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-4xl sm:text-center '>
           <h2
-            className={`${ThrashTalkFont.variable} font-thrashtalk mt-2 text-6xl sm:text-7xl md:text-7xl lg:text-6xl text-center font-bold tracking-tight text-csblue-default `}
+            className={`${ThrashTalkFont.variable} font-thrashtalk mt-2 text-6xl sm:text-7xl md:text-7xl lg:text-xl text-center font-bold tracking-tight text-csblue-default `}
           >
             Développer votre projet avec le Camel Studio
           </h2>
+
           <p
             className={`${Roboto_slab.variable} font-roboto_slab mt-6 text-base leading-8 text-gray-600 white lg:break-normal`}
           >
-            Chez Camel Studio, on croit fermement que la force d&apos;une équipe
-            réside dans sa cohésion. Notre équipe ne se contente pas d&apos;être
-            une bande de collègues, mais une véritable famille de devs. Avec
-            nous, vous faites le choix d’avoir toute une équipe soudée prête à
-            faire briller votre vision. Même si chaque membre de notre équipe
-            bosse sur des projets différents, l&apos;esprit d&apos;équipe reste
-            intact. On comprend que chaque projet ait des besoins spécifiques,
-            c&apos;est pourquoi on offre deux options flexibles pour répondre à
-            vos attentes.
+            Chez Camel Studio, nous croyons en la force de l&apos;équipe et en
+            une collaboration unie. Optez pour nous, c&apos;est choisir une
+            véritable famille de développeurs déterminés à faire briller votre
+            vision. Malgré nos projets divers, l&apos;esprit d&apos;équipe reste
+            fort. Nous comprenons les besoins spécifiques de chaque projet,
+            offrant ainsi deux options flexibles pour répondre à vos attentes.
           </p>
         </div>
       </div>

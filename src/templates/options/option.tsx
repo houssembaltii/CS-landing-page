@@ -20,7 +20,7 @@ const OptionList = () => {
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-4xl sm:text-center '>
           <h2
-            className={`${ThrashTalkFont.variable} font-thrashtalk mt-2 text-6xl sm:text-7xl md:text-7xl lg:text-7xl text-center font-bold tracking-tight text-csblue-default `}
+            className={`${ThrashTalkFont.variable} font-thrashtalk mt-2 text-6xl sm:text-7xl md:text-7xl lg:text-6xl text-center font-bold tracking-tight text-csblue-default `}
           >
             Développer votre projet avec le Camel Studio
           </h2>

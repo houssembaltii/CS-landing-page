@@ -33,7 +33,7 @@ const Apropos = () => {
         <div className='mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row'>
           <div className='w-full lg:max-w-lg lg:flex-auto'>
             <h2
-              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-black text-center`}
+              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-csyellow text-center`}
             >
               Qui sommes-nous ?
             </h2>

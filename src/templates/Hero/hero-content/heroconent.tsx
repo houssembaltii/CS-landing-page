@@ -31,7 +31,7 @@ const HeroContent = () => {
           <h1
             className={`${ThrashTalkFont.variable} font-thrashtalk text-4xl font-bold tracking-tight text-white sm:text-7xl`}
           >
-            boîte de developeurs agiles et résilients
+            boîte de développeurs agiles et résilients
           </h1>
           <p
             className={`${Roboto_slab.variable} font-roboto_slab mt-6 text-lg leading-8 text-gray-200 `}
@@ -43,7 +43,7 @@ const HeroContent = () => {
             <Link
               href='#'
               type='button'
-              className='rounded-md bg-csyellow px-6 py-3 text-base font-bold border border-white text-white   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
+              className='rounded-md bg-white px-6 py-3 text-base font-bold border border-white text-csblue-default   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
             >
               Contactez-nous
             </Link>
@@ -51,7 +51,7 @@ const HeroContent = () => {
               href='#options'
               className='text-sm font-semibold leading-6 text-white'
             >
-              Learn more <span aria-hidden='true'>→</span>
+              En savoir plus <span aria-hidden='true'>→</span>
             </Link>
           </div>
         </div>

@@ -8,7 +8,7 @@ const ThrashTalkFont = localFont({
 });
 const Roboto_slab = Roboto_Slab({
   subsets: ["latin"],
-  weight: "600",
+  weight: "400",
   display: "swap",
   variable: "--font-roboto",
 });

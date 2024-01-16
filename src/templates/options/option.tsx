@@ -2,23 +2,26 @@ import React from "react";
 import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
 import staruiLogo from "../../images/startui.jpg";
 import Image from "next/image";
+import { AcademicCapIcon } from "@heroicons/react/20/solid";
 const features = [
   {
     name: "Option 1",
     description:
       "Vous avez déjà une équipe en place et vous voulez la booster ? Aucun problème ! Prenez l'un de nos développeurs, et non seulement vous aurez un professionnel dédié, mais vous aurez aussi accès à l'expertise collective de toute notre équipe qui le soutient et l’épaule en coulisses.  ",
+    icon: AcademicCapIcon,
   },
   {
     name: "Option 2",
     description:
       " Vous préférez déléguer l'intégralité de votre projet à notre équipe ? Laisse-nous prendre les rênes. Confiez-nous votre vision, et notre équipe de développement mettra en œuvre chaque ligne de code avec soin, du concept à la réalisation.",
+    icon: AcademicCapIcon,
   },
 ];
 const OptionList = () => {
   return (
     <section className='bg-white py-24 sm:py-32' id='options'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-        <div className='mx-auto max-w-4xl sm:text-center '>
+        <div className='mx-auto max-w-4xl sm:text-center lg:mx-0 '>
           <h2
             className={`${ThrashTalkFont.variable} font-thrashtalk mt-2 text-6xl sm:text-7xl md:text-7xl lg:text-xl text-center font-bold tracking-tight text-csblue-default `}
           >

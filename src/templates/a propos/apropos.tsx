@@ -2,10 +2,10 @@ import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
 import React from "react";
 import background from "./../../images/background.jpeg";
 import Image from "next/image";
-const jobOpenings = [
+const AboutUsList = [
   {
     id: 1,
-    titre: "Ce qu'on sait faire ?",
+    title: "Ce qu'on sait faire ?",
     href: "#",
     description:
       "On fait du développement sur mesure, des applications web fluides et des solutions digitales qui marchent. On n'a pas de formules magiques, juste du bon boulot. On est sympa, mais surtout on est pros",
@@ -33,12 +33,12 @@ const Apropos = () => {
         <div className='mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row'>
           <div className='w-full lg:max-w-lg lg:flex-auto'>
             <h2
-              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-black text-center`}
+              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-white text-center`}
             >
               Qui sommes-nous ?
             </h2>
             <p
-              className={`${Roboto_slab.variable} font-roboto_slab mt-6  text-white  text-base leading-8 lg:break-normal`}
+              className={`${Roboto_slab.variable} font-roboto_slab mt-6  text-gray-200  text-base leading-8 lg:break-normal`}
             >
               Une équipe jeune mais pas novice, soudée et qui connaît le marché
               européen. Pas de blabla ici. On code, on design, on résout des
@@ -54,28 +54,28 @@ const Apropos = () => {
             />
           </div>
           <div className='w-full lg:max-w-xl lg:flex-auto'>
-            <h3 className='sr-only'>Job openings</h3>
+            <h3 className='sr-only'>Qui somme nous section</h3>
             <ul className='-my-8 divide-y divide-gray-100'>
-              {jobOpenings.map((opening) => (
-                <li key={opening.id} className='py-8'>
+              {AboutUsList.map((about) => (
+                <li key={about.id} className='py-8'>
                   <dl className='relative flex flex-wrap gap-x-3'>
-                    <dt className='sr-only'>Role</dt>
+                    <dt className='sr-only'>title</dt>
                     <dd
-                      className={`${ThrashTalkFont.variable} font-thrashtalk w-full flex-none  font-semibold tracking-tight text-csyellow text-3xl lg:text-left text-center xl:text-left 2xl:text-left `}
+                      className={`${ThrashTalkFont.variable} font-thrashtalk w-full flex-none  font-semibold tracking-tight text-white text-3xl lg:text-left text-center xl:text-left 2xl:text-left `}
                     >
                       <p>
-                        {opening.titre}
+                        {about.title}
                         <span className='absolute inset-0' aria-hidden='true' />
                       </p>
                     </dd>
                     <dt className='sr-only'>Description</dt>
                     <dd
-                      className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-white lg:break-normal`}
+                      className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-gray-200 lg:break-normal`}
                     >
-                      {opening.description}
+                      {about.description}
                     </dd>
 
-                    <dt className='sr-only'>Location</dt>
+                    <dt className='sr-only'>Alignment with picture </dt>
                     <dd className='mt-4 flex items-center gap-x-3 text-base leading-7 text-white'>
                       <svg
                         viewBox='0 0 2 2'

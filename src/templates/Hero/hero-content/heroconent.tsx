@@ -39,11 +39,12 @@ const HeroContent = () => {
             Au Camel Studio on sait comment garder la tête froide même dans les
             projets les plus chauds. Pas de bosses, que des solutions.
           </p>
-          <div className='mt-10 flex items-center justify-center gap-x-6 '>
+          <div className='mt-10 flex items-center justify-center gap-x-6  '>
             <Link
-              href='#'
+              href='mailto:contact@camelstudiotunisie.com?subject=Contact%20Camel%20Studio'
               type='button'
               className='rounded-md bg-white px-6 py-3 text-base font-bold border border-white text-csblue-default   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
+              target='_blank'
             >
               Contactez-nous
             </Link>

@@ -1,15 +1,7 @@
 import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
-  AcademicCapIcon,
-  CheckCircleIcon,
-} from "@heroicons/react/20/solid";
-import Link from "next/link";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
+
+import CTASection from "../cta section/ctasection";
 
 const features = [
   {
@@ -28,7 +20,7 @@ const features = [
 
 const Options = () => {
   return (
-    <div className='bg-white py-24 sm:py-32' id='#options'>
+    <article className='bg-white pt-24 sm:pt-32' id='options'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-2xl lg:mx-0 lg:max-w-5xl'>
           <h2
@@ -54,34 +46,28 @@ const Options = () => {
               className='relative pl-0 lg:pl-9 md:pl-9 sm:pl-6'
             >
               <dt
-                className={`${ThrashTalkFont.variable} font-thrashtalk  text-3xl text-csblue-default text-center sm:text-left md:text-left lg:text-left xl:text-left 2xl:text-left`}
+                className={`${ThrashTalkFont.variable} font-thrashtalk  text-3xl text-csblue-default text-center sm:text-left md:text-left lg:text-left xl:text-left 2xl:text-left mb-3`}
               >
                 <feature.icon
-                  className='absolute -left-5 top-15 h-10 w-10 text-csblue-default invisible lg:visible md:visible sm:visible '
+                  className='absolute -left-2 top-1 h-7 w-7 text-csblue-default invisible lg:visible md:visible sm:visible '
                   aria-hidden='true'
                 />
                 {feature.name}
-              </dt>{" "}
-              <br />
+              </dt>
+
               <dd
-                className={` ${Roboto_slab.variable} font-roboto_slab inline text-gray-600 `}
+                className={` ${Roboto_slab.variable} font-roboto_slab inline text-gray-600  `}
               >
                 {feature.description}
               </dd>
             </div>
           ))}
         </dl>
-        <div className='mt-12 text-center'>
-          <Link
-            href='#'
-            type='button'
-            className='rounded-md bg-csblue-default px-6 py-3 text-base font-bold border border-white text-white   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
-          >
-            Contactez-nous
-          </Link>
-        </div>
       </div>
-    </div>
+      <div className='mt-12'>
+        <CTASection />
+      </div>
+    </article>
   );
 };
 export default Options;

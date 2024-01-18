@@ -2,10 +2,10 @@ import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
 import React from "react";
 import background from "./../../images/background.jpeg";
 import Image from "next/image";
-const jobOpenings = [
+const AboutUsList = [
   {
     id: 1,
-    titre: "Ce qu'on sait faire ?",
+    title: "Ce qu'on sait faire ?",
     href: "#",
     description:
       "On fait du développement sur mesure, des applications web fluides et des solutions digitales qui marchent. On n'a pas de formules magiques, juste du bon boulot. On est sympa, mais surtout on est pros",
@@ -54,17 +54,17 @@ const Apropos = () => {
             />
           </div>
           <div className='w-full lg:max-w-xl lg:flex-auto'>
-            <h3 className='sr-only'>Job openings</h3>
+            <h3 className='sr-only'>Qui somme nous section</h3>
             <ul className='-my-8 divide-y divide-gray-100'>
-              {jobOpenings.map((opening) => (
-                <li key={opening.id} className='py-8'>
+              {AboutUsList.map((about) => (
+                <li key={about.id} className='py-8'>
                   <dl className='relative flex flex-wrap gap-x-3'>
-                    <dt className='sr-only'>Role</dt>
+                    <dt className='sr-only'>title</dt>
                     <dd
                       className={`${ThrashTalkFont.variable} font-thrashtalk w-full flex-none  font-semibold tracking-tight text-white text-3xl lg:text-left text-center xl:text-left 2xl:text-left `}
                     >
                       <p>
-                        {opening.titre}
+                        {about.title}
                         <span className='absolute inset-0' aria-hidden='true' />
                       </p>
                     </dd>
@@ -72,10 +72,10 @@ const Apropos = () => {
                     <dd
                       className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-gray-200 lg:break-normal`}
                     >
-                      {opening.description}
+                      {about.description}
                     </dd>
 
-                    <dt className='sr-only'>Location</dt>
+                    <dt className='sr-only'>Alignment with picture </dt>
                     <dd className='mt-4 flex items-center gap-x-3 text-base leading-7 text-white'>
                       <svg
                         viewBox='0 0 2 2'

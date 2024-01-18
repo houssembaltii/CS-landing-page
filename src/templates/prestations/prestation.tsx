@@ -7,7 +7,6 @@ import {
   RectangleStackIcon,
   ComputerDesktopIcon,
 } from "@heroicons/react/24/outline";
-
 const features = [
   {
     name: "Création d’application web sur mesure",
@@ -58,7 +57,7 @@ const features = [
 ];
 const Prestation = () => {
   return (
-    <div className='bg-white py-24 sm:py-32 ' id='Prestations'>
+    <article className='bg-white py-24 sm:py-32 ' id='Prestations'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-2xl lg:text-center'>
           <h2
@@ -72,13 +71,6 @@ const Prestation = () => {
             {features.map((feature) => (
               <div key={feature.name} className='flex flex-col '>
                 <dt className='flex-none  gap-x-3  text-base  leading-7 text-black '>
-                  {/* <Image
-                    className='h-10 w-10  text-indigo-400 mx-auto lg:mx-0 '
-                    src={feature.icon}
-                    alt={feature.name}
-                    height={50}
-                    width={50}
-                  /> */}
                   <div className='mb-2 flex h-10 w-10 items-center justify-center rounded-lg bg-csblue-default mx-auto lg:mx-0'>
                     <feature.icon
                       className='h-6 w-6 text-white'
@@ -98,14 +90,13 @@ const Prestation = () => {
                   >
                     {feature.description}
                   </p>
-                  <p className='mt-6'></p>
                 </dd>
               </div>
             ))}
           </dl>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

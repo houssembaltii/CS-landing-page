@@ -6,7 +6,7 @@ const HeroPage = () => {
   return (
     <>
       <Header />
-      <section className='bg-gray-900'>
+      <section>
         <HeroContent />
       </section>
     </>

@@ -33,7 +33,9 @@ const Apropos = () => {
         <div className='mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row'>
           <div className='w-full lg:max-w-lg lg:flex-auto'>
             <h2
+
               className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-white text-left sm:text-center md:text-left lg:text-left`}
+
             >
               Qui sommes-nous ?
             </h2>
@@ -70,7 +72,7 @@ const Apropos = () => {
                     </dd>
                     <dt className='sr-only'>Description</dt>
                     <dd
-                      className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-white lg:break-normal`}
+                      className={`${Roboto_slab.variable} font-roboto_slab mt-2 w-full flex-none text-base leading-7 text-gray-200 lg:break-normal`}
                     >
                       {about.description}
                     </dd>

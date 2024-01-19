@@ -5,12 +5,14 @@ import CTASection from "../cta section/ctasection";
 
 const features = [
   {
+
     name: "vous avez déjà une équipe à booster ",
     description:
       "Vous avez déjà une équipe en place et vous voulez la booster ? Aucun problème ! Prenez l'un de nos développeurs, et non seulement vous aurez un professionnel dédié, mais vous aurez aussi accès à l'expertise collective de toute notre équipe qui le soutient et l’épaule en coulisses.  ",
     icon: CheckCircleIcon,
   },
   {
+
     name: "votre équipe c'est nous",
     description:
       " Vous préférez déléguer l'intégralité de votre projet à notre équipe ? Laisse-nous prendre les rênes. Confiez-nous votre vision, et notre équipe de développement mettra en œuvre chaque ligne de code avec soin, du concept à la réalisation.",
@@ -65,6 +67,7 @@ const Options = () => {
         </dl>
       </div>
       <div className='pt-24 sm:pt-32'>
+
         <CTASection />
       </div>
     </article>

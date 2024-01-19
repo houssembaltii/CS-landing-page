@@ -43,7 +43,9 @@ const HeroContent = () => {
             <Link
               href='mailto:contact@camelstudiotunisie.com?subject=Contact%20Camel%20Studio'
               type='button'
+
               className={`${Roboto_slab.variable} font-roboto_slab rounded-md bg-white px-6 py-3 text-base border border-white text-csblue-default   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none`}
+
               target='_blank'
             >
               Contactez-nous

@@ -6,9 +6,9 @@ const HeroPage = () => {
   return (
     <div>
       <Header />
-
       <HeroContent />
     </div>
+
   );
 };
 

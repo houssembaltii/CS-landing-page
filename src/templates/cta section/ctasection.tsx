@@ -16,7 +16,7 @@ const CTASection = () => {
           <Link
             href='mailto:contact@camelstudiotunisie.com?subject=Contact%20Camel%20Studio'
             type='button'
-            className='rounded-md bg-white px-6 py-3 text-base font-bold border border-white text-csblue-default   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 '
+            className={`${Roboto_slab.variable} font-roboto_slab rounded-md bg-white px-6 py-3 text-base border border-white text-csblue-default focus:outline-none focus:ring-4 focus:ring-csblue-default`}
             target='_blank'
           >
             Contactez-nous

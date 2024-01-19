@@ -2,14 +2,14 @@ import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import background from "../../../images/background.png";
+import background from "../../../images/Mask group-min.jpg";
 const HeroContent = () => {
   return (
-    <div className='relative isolate overflow-hidden pt-14'>
+    <div className='relative isolate ml-0 overflow-hidden pt-14 lg:-ml-1'>
       <Image
         src={background}
         alt=''
-        className='absolute inset-0 -z-10 h-full w-full object-cover'
+        className='absolute inset-0 -z-10 h-full w-full object-cover '
         priority
       />
       <div
@@ -43,14 +43,16 @@ const HeroContent = () => {
             <Link
               href='mailto:contact@camelstudiotunisie.com?subject=Contact%20Camel%20Studio'
               type='button'
-              className='rounded-md bg-white px-6 py-3 text-base font-bold border border-white text-csblue-default   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
+
+              className={`${Roboto_slab.variable} font-roboto_slab rounded-md bg-white px-6 py-3 text-base border border-white text-csblue-default   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus:outline-none`}
+
               target='_blank'
             >
               Contactez-nous
             </Link>
             <Link
               href='#options'
-              className='text-sm font-semibold leading-6 text-white'
+              className={`${Roboto_slab.variable} font-roboto_slab text-sm  leading-6 text-white`}
             >
               En savoir plus <span aria-hidden='true'>→</span>
             </Link>

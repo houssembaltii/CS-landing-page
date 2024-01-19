@@ -1,6 +1,6 @@
 import { Roboto_slab, ThrashTalkFont } from "@/utils/fonts";
 import React from "react";
-import background from "./../../images/background.jpeg";
+import background from "./../../images/background-min.jpeg";
 import Image from "next/image";
 const AboutUsList = [
   {
@@ -12,14 +12,14 @@ const AboutUsList = [
   },
   {
     id: 2,
-    titre: "Pourquoi nous ?",
+    title: "Pourquoi nous ?",
     href: "#",
     description:
       "Pas de blabla, que du boulot : On va droit au but. Pas de promesses vides, juste des résultats concrets.Jeunes, mais pas novices : On est jeunes, mais on sait ce qu'on fait. Une bonne énergie et un bon mindset.Des prix raisonnables : On est basés en Tunisie, alors nos tarifs sont cool. Qualité pro, sans se ruiner.",
   },
   {
     id: 3,
-    titre: "On bosse comment ?",
+    title: "On bosse comment ?",
     href: "#",
     description:
       "Si vous en avez marre des discours pompeux et que vous voulez des résultats tangibles, parlons de votre projet. Contactez-nous et discutons sérieusement de ce que l'on peut faire ensemble.",
@@ -33,7 +33,9 @@ const Apropos = () => {
         <div className='mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row'>
           <div className='w-full lg:max-w-lg lg:flex-auto'>
             <h2
-              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-white text-center`}
+
+              className={`${ThrashTalkFont.variable} font-thrashtalk text-6xl   font-bold tracking-tight text-white text-left sm:text-center md:text-left lg:text-left`}
+
             >
               Qui sommes-nous ?
             </h2>

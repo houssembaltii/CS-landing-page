@@ -21,6 +21,7 @@ const config: Config = {
         csblue: {
           default: "#1E67FEE5",
           light: "#4080FF",
+          test: "#1E67FECE",
         },
         csyellow: "#FFB800",
       },

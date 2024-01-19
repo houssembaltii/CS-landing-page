@@ -4,12 +4,11 @@ import HeroContent from "./hero-content/heroconent";
 
 const HeroPage = () => {
   return (
-    <>
+    <div>
       <Header />
-      <section>
-        <HeroContent />
-      </section>
-    </>
+
+      <HeroContent />
+    </div>
   );
 };
 

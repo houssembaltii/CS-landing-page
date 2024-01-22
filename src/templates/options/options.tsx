@@ -31,7 +31,7 @@ const Options = () => {
             Développer votre projet avec Camel Studio
           </h2>
           <p
-            className={`${Roboto_slab.variable} font-roboto_slab mt-6 text-base leading-8 text-gray-600 white  lg:max-w-3xl`}
+            className={`${Roboto_slab.variable} font-roboto_slab mt-6 text-base leading-8 text-gray-600   lg:max-w-3xl`}
           >
             Chez Camel Studio, nous croyons en la force de l&apos;équipe et en
             une collaboration unie. Optez pour nous, c&apos;est choisir une

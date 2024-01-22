@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { SVGProps } from "react";
 import csBlackLogo from "./../../images/cs-color-logotype.png";
+import { Roboto_slab } from "@/utils/fonts";
+
 const navigation = [
   {
     name: "Linkedin",
@@ -18,8 +20,6 @@ const navigation = [
     ),
   },
 ];
-import cslogo from "../../images/cs-white-logo.png";
-import { Roboto_slab } from "@/utils/fonts";
 const Footer = () => {
   return (
     <footer className='bg-white'>

@@ -19,6 +19,8 @@ const navigation = [
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [activeItem, setActiveItem] = useState<string>("");
+
   const pathname = usePathname();
 
   return (
@@ -40,7 +42,7 @@ const Header = () => {
                 xmlns='http://www.w3.org/2000/svg'
                 transform='translate(-4,-3)'
               >
-                <g clip-path='url(#clip0_187_8)'>
+                <g clipPath='url(#clip0_187_8)'>
                   <path
                     fillRule='evenodd'
                     clipRule='evenodd'
@@ -79,10 +81,16 @@ const Header = () => {
             <Link
               key={item.name}
               href={item.href}
+              onClick={() => setActiveItem(item.name)}
               className={`${Roboto_slab.variable} font-roboto_slab  leading-6 text-white group transition duration-300 `}
             >
               {item.name}
-              <span className='block w-0 group-hover:w-1/2 transition-all duration-500 h-0.5 bg-white group-focus:w-full'></span>
+              <span
+                className={`block w-0 ${
+                  item.name === activeItem ? "" : "group-hover:w-1/2"
+                } transition-all duration-500 h-0.5 bg-white  
+                ${item.name == activeItem ? "w-full" : ""}`}
+              ></span>
             </Link>
           ))}
         </div>

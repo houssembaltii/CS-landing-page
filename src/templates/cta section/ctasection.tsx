@@ -16,7 +16,7 @@ const CTASection = () => {
           <div
             className={` ${Roboto_slab.variable} font-roboto_slab text-xl tracking-tight pt-4`}
           >
-            Envoyez-nous un mail sur : camelstudiotunisie.com
+            Envoyez-nous un mail sur : contact@camelstudiotunisie.com
           </div>
           <div
             className={` ${Roboto_slab.variable} font-roboto_slab text-xl tracking-tight`}
